@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background-color: cadetblue;
+    color: bisque;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 8px black;
+    box-sizing: border-box;
+}
+.card > h3 {
+    margin: 10px;
+}
+.delete-btn {
+    cursor: pointer;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #888;
+    color: white;
+}
+.delete-btn:active {
+    transform: scale(.9);
+}
